@@ -1,0 +1,25 @@
+(1) 程序编写
+  class HelloWorld {
+    public static void main(String[] args) {
+      System.out.println("hello, world!");
+    }
+  }
+
+  其中,
+    class: 关键字, 表示"类", 后面跟着类名(HelloWorld)
+    main()方法的格式是固定的。务必记住！表示程序的入口
+      public static void main(String[] args)
+    如果非要变化的话, 只能变化String[] args结构。可以写成
+      args: 全称是arguments, 简写成args
+      方式1: String args[]
+      方式2: String a[]
+
+  注意事项:
+    Java程序, 是严格区分大小写的
+    两种输出方式的区别:
+    System.out.println(); 输出数据后, 会换行
+    System.out.print(); 输出数据后, 不会换行
+
+(2) 程序编译
+
+(3) 程序运行
